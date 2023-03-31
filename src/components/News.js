@@ -9,6 +9,7 @@ import { cleanup } from '@testing-library/react';
 const News = (props) =>{
 
   const[articles, setArticles] = useState([])
+  
   const[loading, setLoading] = useState(true)
   const[page, setPage] = useState(1)
   const[totalResults, settotalResults] = useState(0)
